@@ -1,4 +1,4 @@
-function LoginPage() {
+function LoginPage(): JSX.Element {
   return (
     <div className="page page--gray page--login">
       <header className="header">
@@ -31,7 +31,7 @@ function LoginPage() {
           </section>
           <section className="locations locations--login locations--current">
             <div className="locations__item">
-              <a className="locations__item-link" href="#">
+              <a className="locations__item-link" href="todo">
                 <span>Amsterdam</span>
               </a>
             </div>
